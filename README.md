@@ -20,6 +20,14 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 
  - [Básico](#basico)
 	 - [¿Qué es una Activity?](#que-es-una-activity)
+	 - [¿Qué es un Layout?](#que-es-uun-layout)
+	 - [¿Para qué se utiliza XML en Android?](#para-que-se-utiliza-xml-en-android)
+	 - [¿Diferencias entre View y ViewGroup?](#diferencias-entre-view-y-viewgroup)
+	 - [Ejemplos de elementos View y ViewGroup](#ejemplos-de-elementos-view-viewgroup)
+	 - [¿Como indicamos a una Activity cual es su interfaz?](#como-indicamos-a-una-activity-cual-es-su-interfaz)
+	 - [¿Qué lenguajes de programación se utilizan para el desarrollo de aplicaciones Android ?](#que-lenguajes-de-programacion-se-utilizan-para-el-desarrollo-de-aplicaciones-android)
+	 - [¿Qué es el archivo AndroidManifest.xml?](#que-es-el-archivo-androidmanifest)
+
  - Intermedio
 	 - A
  - Avanzado
@@ -30,3 +38,46 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 Una Activity estrictamente es una clase, esta clase se utiliza normalmente para ser el contenedor de una vista y funcionalidades básicas de una pantalla dentro de una aplicación, normalmente viene enlazada a lo que es un XML en donde se tiene definida la vista. Las activities se tienen registradas en un archivo Manifest. Se dice muchas veces para explicar de manera sencilla que una activity es una pantalla, si una aplicación android tiene 5 pantallas podemos decir de manera general que tiene 5 activities, aunque tecnicamente tenemos otras formas de crear vista y no siempre esto es así, pero esa explicación se da muchas veces al inicio a los desarrolladores que estan aprendiendo para facilitar su comprensión.
 
 **[⬆ Volver a índice](#índice)**
+
+### ¿Qué es un Layout?
+Los Layouts son elementos que nos ayudan a definir la estructura de interfaz de una aplicación en Android. Tenemos dos elementos base para los elementos de diseño que son ViewGroup y View. Un View se utiliza para mostrar un elemento, este elemento puede ser solo para mostrar "algo" o puede ser tambien un elemento que tenga interacción con el usuario. Por otro lado ViewGroup es un elemento que puede contener 1 o varios elementos del tipo View o ViewGroup que ayuda a definir la estructura. 
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿Para qué se utiliza XML en Android?
+
+XML se utiliza normalmente para definir las interfaces utilizando layouts y vistas que nos permiten en combinación crear interfaces de aplicaciones en android. Pero tambien son archivos que se pueden utilizar para definir algunas configuración, valores o reglas, por ejemplo utilizamos un XML para escribir las cadenas de texto de una aplicación en español, ingles u otros idiomas, también podemos utilizar XML para definir los elementos que formaran parte de un menú. Por otro lado el archivo Manifest es un XML en donde se tiene una parte de la configuración de la aplicación y el registro de las activities. Así que podemos utilizarlos con diferentes objetivos aunque el tema de definición de interfaces es el más común.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿Diferencias entre View y ViewGroup?
+
+View es una vista que tiene definido un espacio de aparición y acciones a realizar si se le da alguna indicación o sucede alguna interacción. Un ViewGroup es un contenedor invisible que puede contener 1 o más View o ViewGroup. View es una superclase, mientras que ViewGroup es una colección de elementos contenidos. De hecho ViewGroup deriva de View.
+
+**[⬆ Volver a índice](#índice)**
+
+### Ejemplos de elementos View y ViewGroup
+
+Elementos come EditText, TextView, ListView son View.
+Elementos como LinearLayour, RelativeLayout, GridLayout, FrameLayout derivan de ViewGroup.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿Como indicamos a una Activity cual es su interfaz?
+
+La manera más común es si creamos el clasico "hola mundo" en android sin utilizar JetPackCompose por ejemplo, es dentro del método onCreate() de la Activity tenemos el método setContentView en donde establecemos cual es el layout que vamos a utilizar como recurso para este elemento.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿Qué lenguajes de programación se utilizan para el desarrollo de aplicaciones Android ?
+
+Google recomienda hoy en día el lenguaje de programación Kotlin para el desarrollo de aplicaciones android, pero tenemos posibilidades de utilizar otros lenguajes de programación aunque en ocasiones son para funcionalidades muy particulares, se comenzo desarrollando aplicaciones con el lenguaje de programación Java y se sigue utilizando ya que existen muchas aplicaciones aún con este lenguaje de programación y muchos elementos antiguos que solo soportan este lenguaje. Las dos principales opciones actuales son Kotlin y Java, siendo Kotlin el recomendado directamente por el equipo de Android.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿Qué es el archivo AndroidManifest.xml?
+
+Es un archivo que se considera muy importante dentro de una aplicación ya que se configuran elementos cruciales de una aplicación. Encontraremos por ejemplo al configuración de algunos componentes como las Activities, Services y otros. Encontraremos tambien elementos como los iconos, permisos, compatibilidades con algunos dispositivos.
+
+**[⬆ Volver a índice](#índice)**
+
