@@ -19,14 +19,16 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 -[Índice](#índice)
 
  - [Básico](#basico)
-	 - [¿Qué es una Activity?](#que-es-una-activity)
-	 - [¿Qué es un Layout?](#que-es-uun-layout)
-	 - [¿Para qué se utiliza XML en Android?](#para-que-se-utiliza-xml-en-android)
-	 - [¿Diferencias entre View y ViewGroup?](#diferencias-entre-view-y-viewgroup)
+	 - [¿ Qué es una Activity ?](#que-es-una-activity)
+	 - [¿ Qué es un Layout ?](#que-es-uun-layout)
+	 - [¿ Para qué se utiliza XML en Android ?](#para-que-se-utiliza-xml-en-android)
+	 - [¿ Diferencias entre View y ViewGroup ?](#diferencias-entre-view-y-viewgroup)
 	 - [Ejemplos de elementos View y ViewGroup](#ejemplos-de-elementos-view-viewgroup)
-	 - [¿Como indicamos a una Activity cual es su interfaz?](#como-indicamos-a-una-activity-cual-es-su-interfaz)
-	 - [¿Qué lenguajes de programación se utilizan para el desarrollo de aplicaciones Android ?](#que-lenguajes-de-programacion-se-utilizan-para-el-desarrollo-de-aplicaciones-android)
-	 - [¿Qué es el archivo AndroidManifest.xml?](#que-es-el-archivo-androidmanifest)
+	 - [¿ Como indicamos a una Activity cual es su interfaz?](#como-indicamos-a-una-activity-cual-es-su-interfaz)
+	 - [¿ Qué lenguajes de programación se utilizan para el desarrollo de aplicaciones Android ?](#que-lenguajes-de-programacion-se-utilizan-para-el-desarrollo-de-aplicaciones-android)
+	 - [¿ Qué es el archivo AndroidManifest.xml ?](#que-es-el-archivo-androidmanifest)
+	  - [¿ Cuál es la diferencia entre View.INVISIBLE y View.GONE ?](#cual-es-la-diferencia-entre-viewinvisible-viewgone)
+	 - [¿ Qué es clase Application ?](#que-es-clase-application)
 
  - Intermedio
 	 - A
@@ -81,7 +83,7 @@ Es un archivo que se considera muy importante dentro de una aplicación ya que s
 
 **[⬆ Volver a índice](#índice)**
 
-### ¿ Cuá es la diferencia entre View.INVISIBLE y View.GONE ?
+### ¿ Cuál es la diferencia entre View.INVISIBLE y View.GONE ?
 
 View.INVISIBLE no se en pantalla el elemento, es decir esta invisible pero mantiene el espacio de la vista que le corresponde. View.GONE hace que el elemento tambien sea invisible pero no mantiene el espacio en la vista que le corresponde.
 
