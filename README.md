@@ -34,6 +34,8 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
     - [¿ Qué es el ciclo de vida de una actividad ?](#que-es-el-ciclo-de-vida-de-una-actividad)
     - [¿ Cuáles son los métodos del ciclo de vida de una actividad ?](#cuales-son-los-metodos-del-ciclo-de-vida-de-una-actividad)
     - [¿ Que hace cada método del ciclo de vida de una actividad ?](#que-hace-cada-metodo-del-ciclo-de-vida-de-una-actividad)
+    - [¿ Cuál es la diferencia entre onCreate() y onStart() ?](#cual-es-la-diferencia-entre-oncreate-onstart)
+
 
 
  - Intermedio
@@ -141,5 +143,11 @@ Se mandan a llamar para ejecutar ciertas acciones en especifico dependiendo de e
 * onStrop() - Este método se ejecuta cuando ya no se ve la actividad.
 * onRestart() - Se llama cuando la actividad esta detenida pero la vamos a reiniciar.
 * onDestroy() -  Se llama cuando terminamos de trabajar con la actividad.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Cuál es la diferencia entre onCreate() y onStart() ?
+
+onCreate solo se llama una vez, la primera vez que se crea la actividad. El método onStart se llama siempre que la actividad se hace visible y puede ser después de los métodos onCreate() ó onRestart()
 
 **[⬆ Volver a índice](#índice)**
