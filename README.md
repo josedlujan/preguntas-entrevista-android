@@ -31,7 +31,7 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 	 - [¿ Qué es clase Application ?](#que-es-clase-application)
 	- [¿ Qué es el Contexto ?](#que-es-el-contexto)
 	- [¿ Qué es el archivo R.java ?](#que-es-el-archivo-r-java)
-
+    - [¿ Qué es el ciclo de vida de una actividad ?](#que-es-el-ciclo-de-vida-de-una-actividad)
 
 
  - Intermedio
@@ -108,5 +108,11 @@ De manera tecnica podemos decir es una una clase Abstracta que existe en android
 ### ¿ Qué es el archivo R.java?
 
 Es un archivo que se genera automáticamente por AAPT (Android Asset Packaging Tool) Dentro de este archivo podemos ver todos los ID de los recursos que tenemos en el proyecto.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Que es el ciclo de vida de una actividad?
+
+Es un ciclo de procesos/ métodos que se lleva acabo durante el uso de actividades, comienza desde el inicio de la actividad y termina destruyendo una actividad.
 
 **[⬆ Volver a índice](#índice)**
