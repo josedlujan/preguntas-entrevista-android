@@ -30,6 +30,8 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 	  - [¿ Cuál es la diferencia entre View.INVISIBLE y View.GONE ?](#cual-es-la-diferencia-entre-viewinvisible-viewgone)
 	 - [¿ Qué es clase Application ?](#que-es-clase-application)
 	- [¿ Qué es el Contexto ?](#que-es-el-contexto)
+	- [¿ Qué es el archivo R.java ?](#que-es-el-archivo-r-java)
+
 
 
  - Intermedio
@@ -100,5 +102,11 @@ La manera corta es decir que es una clase que se puede utilizar como base para m
 ### ¿ Qué es el Contexto ?
 
 De manera tecnica podemos decir es una una clase Abstracta que existe en android y que nos la proporciona el Android. El contexto se utiliza normalmente para tener acceso a elementos dentro de una aplicación y nos ayuda a delimitar como y donde lo hacemos. Una manera fácil de explicarlo es utilizando una aplicación y las actividades. Por ejemplo si estamos en una aplicación y preguntamos por el contexto de la aplicación podemos decir que este nos permite tener acceso a elementos dentro de TODA la aplicación, pero si preguntamos por el contexto de la actividad el contexto solo esta limitado a la actividad en donde estamos cuando preguntamos o usamos el contexto. Así que podemos notar que tenemos diferentes contextos dentro de la misma aplicación y están ligados a diferentes elementos dependiendo de lo que necesitemos tendremos que utilizarlos.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Qué es el archivo R.java?
+
+Es un archivo que se genera automáticamente por AAPT (Android Asset Packaging Tool) Dentro de este archivo podemos ver todos los ID de los recursos que tenemos en el proyecto.
 
 **[⬆ Volver a índice](#índice)**
