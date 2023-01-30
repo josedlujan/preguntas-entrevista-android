@@ -29,6 +29,8 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 	 - [¿ Qué es el archivo AndroidManifest.xml ?](#que-es-el-archivo-androidmanifest)
 	  - [¿ Cuál es la diferencia entre View.INVISIBLE y View.GONE ?](#cual-es-la-diferencia-entre-viewinvisible-viewgone)
 	 - [¿ Qué es clase Application ?](#que-es-clase-application)
+	- [¿ Qué es el Contexto ?](#que-es-el-contexto)
+
 
  - Intermedio
 	 - A
@@ -92,5 +94,11 @@ View.INVISIBLE no se en pantalla el elemento, es decir esta invisible pero manti
 ### ¿ Qué es clase Application ?
 
 La manera corta es decir que es una clase que se puede utilizar como base para mantener el estado de la aplicación. Normalmente se usa para tener elementos disponibles en toda la aplicación o muchas veces se dice de "manera global". Se usa normalmente extendiendo de esta clase una clase propia y colocando los elementos que se van a necesitar, se aprocheca que esta clase se utiliza antes que otras y así lo que este ahí estara disponible antes de la creación de los otros elementos en una aplicación.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Qué es el Contexto ?
+
+De manera tecnica podemos decir es una una clase Abstracta que existe en android y que nos la proporciona el Android. El contexto se utiliza normalmente para tener acceso a elementos dentro de una aplicación y nos ayuda a delimitar como y donde lo hacemos. Una manera fácil de explicarlo es utilizando una aplicación y las actividades. Por ejemplo si estamos en una aplicación y preguntamos por el contexto de la aplicación podemos decir que este nos permite tener acceso a elementos dentro de TODA la aplicación, pero si preguntamos por el contexto de la actividad el contexto solo esta limitado a la actividad en donde estamos cuando preguntamos o usamos el contexto. Así que podemos notar que tenemos diferentes contextos dentro de la misma aplicación y están ligados a diferentes elementos dependiendo de lo que necesitemos tendremos que utilizarlos.
 
 **[⬆ Volver a índice](#índice)**
