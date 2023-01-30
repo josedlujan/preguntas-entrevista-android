@@ -32,6 +32,9 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 	- [¿ Qué es el Contexto ?](#que-es-el-contexto)
 	- [¿ Qué es el archivo R.java ?](#que-es-el-archivo-r-java)
     - [¿ Qué es el ciclo de vida de una actividad ?](#que-es-el-ciclo-de-vida-de-una-actividad)
+    - [¿ Cuáles son los métodos del ciclo de vida de una actividad ?](#cuales-son-los-metodos-del-cicl-de-vida-de-una-actividad)
+
+	 
 
 
  - Intermedio
@@ -117,7 +120,7 @@ Es un ciclo de procesos/ métodos que se lleva acabo durante el uso de actividad
 
 **[⬆ Volver a índice](#índice)**
 
-### ¿ Cuáles son los métodos del ciclo de vida de una actividad?
+### ¿ Cuáles son los métodos del ciclo de vida de una actividad ?
 
 * onCreate()
 * onStart()
