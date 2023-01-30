@@ -32,9 +32,8 @@ Las preguntas se dividen en 3 niveles: Básico, Intermedio y avanzado, se compar
 	- [¿ Qué es el Contexto ?](#que-es-el-contexto)
 	- [¿ Qué es el archivo R.java ?](#que-es-el-archivo-r-java)
     - [¿ Qué es el ciclo de vida de una actividad ?](#que-es-el-ciclo-de-vida-de-una-actividad)
-    - [¿ Cuáles son los métodos del ciclo de vida de una actividad ?](#cuales-son-los-metodos-del-cicl-de-vida-de-una-actividad)
-
-	 
+    - [¿ Cuáles son los métodos del ciclo de vida de una actividad ?](#cuales-son-los-metodos-del-ciclo-de-vida-de-una-actividad)
+    - [¿ Que hace cada método del ciclo de vida de una actividad ?](#que-hace-cada-metodo-del-ciclo-de-vida-de-una-actividad)
 
 
  - Intermedio
@@ -129,5 +128,18 @@ Es un ciclo de procesos/ métodos que se lleva acabo durante el uso de actividad
 * onStrop()
 * onRestart()
 * onDestroy()
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Que hace cada método del ciclo de vida de una actividad ?
+Se mandan a llamar para ejecutar ciertas acciones en especifico dependiendo de en que parte del ciclo de vida nos encontremos.
+
+* onCreate() - Se ejecuta cuando se crea la actividad por primera vez.
+* onStart() -  Se ejecuta cuando la actividad esta en el proceso de ser visible para el usuario.
+* onResume() - Aqui ya se ve la actividad para el usuario completamente y se interactua con el usuario.
+* onPause() - Este método se ejecuta cuando el usuario abandona la actividad o se retira del primer plano.
+* onStrop() - Este método se ejecuta cuando ya no se ve la actividad.
+* onRestart() - Se llama cuando la actividad esta detenida pero la vamos a reiniciar.
+* onDestroy() -  Se llama cuando terminamos de trabajar con la actividad.
 
 **[⬆ Volver a índice](#índice)**
