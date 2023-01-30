@@ -111,8 +111,20 @@ Es un archivo que se genera automáticamente por AAPT (Android Asset Packaging T
 
 **[⬆ Volver a índice](#índice)**
 
-### ¿ Que es el ciclo de vida de una actividad?
+### ¿ Que es el ciclo de vida de una actividad ?
 
 Es un ciclo de procesos/ métodos que se lleva acabo durante el uso de actividades, comienza desde el inicio de la actividad y termina destruyendo una actividad.
+
+**[⬆ Volver a índice](#índice)**
+
+### ¿ Cuáles son los métodos del ciclo de vida de una actividad?
+
+* onCreate()
+* onStart()
+* onResume()
+* onPause()
+* onStrop()
+* onRestart()
+* onDestroy()
 
 **[⬆ Volver a índice](#índice)**
